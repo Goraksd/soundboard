@@ -16,8 +16,11 @@
     key.classList.remove('playing');
   }
 
+  elem.onclick = function() {
+    function playSound(m)
+    
+  };
 
-  window.addEventListener('mousedown;', playSound)
-  window.addEventListener('mouseup', endSound) 
+  window.addEventListener('onclick', playSound)
   window.addEventListener('keydown', playSound)
   window.addEventListener('keyup', endSound) 
